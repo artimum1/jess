@@ -1,4 +1,4 @@
-          let images = ["src/imgg.png"];
+          let images = ["src/imgg.jpg"];
           let texts = [[""]];
           
           function createNewSlider() {
