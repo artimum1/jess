@@ -26,7 +26,6 @@ export default function Slider(){
           </defs>
         </svg>
 
- <Script src="/script.js" />
   </>
   );
 }
