@@ -1,6 +1,6 @@
 import './globals.css'
 import Nav from './Nav'
-import Script from 'next/Script'
+import Script from 'next/script'
 import PageHead  from './PageHead'
 import Home from './page1'
 
