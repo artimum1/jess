@@ -5,7 +5,7 @@ export default function MyComponent() {
   return (
     <PageTransition className="r-page page">
       <div id="test" className="page3 page">
-        Works
+        Workss
       </div>
     </PageTransition>
   );
