@@ -1,5 +1,3 @@
-"use client"
-import NextNProgress from 'nextjs-progressbar'
 import './globals.css'
 import Nav from './Nav'
 import PageHead  from './PageHead'
@@ -26,7 +24,6 @@ export default function RootLayout({ children }) {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
       </head>
       <body>
-        <NextNProgress />
         <Nav />
         <PageHead />
         {children}
