@@ -1,5 +1,6 @@
 import './globals.css'
 import Nav from './Nav'
+import Script from 'next/Script'
 import PageHead  from './PageHead'
 import Home from './page1'
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <PageHead />
         {children}
         <Home />
+     <Script src="/script.js" />
         </body>
     </html>
   )
